@@ -13,7 +13,22 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
+  ## Table of Contents
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [Credits](#credits)
+  5. [License](#license)
+  ## Description
+  ${data.description}
+  ## installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## Credits
+  ${data.credits}
+  ## License
+  ${data.license}
 `;
 }
 

@@ -51,11 +51,21 @@ inquirer.prompt([
 
 
 // TODO: Create a function to write README file
-
+function writeToFile(fileName, data) {
+    try {
+        fs.writeFileSync(fileName, data)
+        console.log("Success!")
+    } catch (error) {
+        console.log(error)
+    }
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    questions()
+    questions().then((data) => {
+        const markdown = generateMarkdown(data)
+        writeToFile("MyREADME.md", markdown)
+    })
 }
 
 // Function call to initialize app
