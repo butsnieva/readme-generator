@@ -26,11 +26,6 @@ inquirer.prompt([
         name: 'usage',
         message: 'Enter instructions and examples for use:',
     },
-    // {
-    //     type: 'input',
-    //     name: 'screenshot',
-    //     message: 'Enter a screenshot path:',
-    // },
     {
         type: 'input',
         name: 'link',
