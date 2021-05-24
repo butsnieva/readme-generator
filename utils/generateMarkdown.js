@@ -69,19 +69,26 @@ function generateMarkdown(data) {
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
-  4. [Credits](#credits)
-  5. [License](#license)
+  4. [Contributing](#contributing)
+  5. [Test](#test)
+  6. [Questions](#questions)
+  7. [License](#license)
   ## Description
   ${data.description}
   ## Installation
   ${data.installation}
   ## Usage
   ${data.usage}
-  ## Credits
-  ${data.credits}
+  ${data.link}
+  ## Contributing
+  ${data.contributing}
+  ## Test
+  ${data.test}
+  ## Questions
+  To review the code for this application, visit my [GitHub page](https://github.com/${data.github}). For any additional questions, feel free to email me at ${data.email}.
   ## License
   ${renderLicenseSection(data.license)}
-`;
+`
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown

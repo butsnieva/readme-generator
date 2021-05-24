@@ -1,18 +1,25 @@
-# hr
-  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+# fgbfdgb
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Table of Contents
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
-  4. [Credits](#credits)
-  5. [License](#license)
+  4. [Contributing](#contributing)
+  5. [Test](#test)
+  6. [Questions](#questions)
+  7. [License](#license)
   ## Description
-  gfb
+  fgbfgbfgb
   ## Installation
-  fg
+  gfbfdg
   ## Usage
+  fdgbfgb
+  dfgbfgb
+  ## Contributing
   dfgb
-  ## Credits
+  ## Test
   dfgb
+  ## Questions
+  To review the code for this application, visit my [GitHub page](https://github.com/butsnieva). For any additional questions, feel free to email me at butsnieva@gmail.com.
   ## License
-  This project is licensed under the GPL [license](https://www.gnu.org/licenses/gpl-3.0).
+  This project is licensed under the MIT [license](https://opensource.org/licenses/MIT).

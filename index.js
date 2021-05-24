@@ -3,6 +3,7 @@ const fs = require('fs')
 const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown')
 
+
 // TODO: Create an array of questions for user input
 const questions = () =>
 inquirer.prompt([
@@ -49,8 +50,23 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: 'credits',
-        message: 'List your collaborators, if any: ',
+        name: 'contributing',
+        message: 'Contribution guidelines: ',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Test instructions: ',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your github username: ',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email: ',
     },
     {
         type: 'list',
