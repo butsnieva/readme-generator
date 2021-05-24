@@ -10,11 +10,27 @@ inquirer.prompt([
         type: 'input',
         name: 'title',
         message: 'Project title:',
+        validate: input => {
+            if (input) {
+                return true;
+            } else {
+                console.log('Project title is required!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'description',
         message: 'Project description:',
+        validate: input => {
+            if(input) {
+                return true;
+            } else {
+                console.log("Please provide a brief description of your project!");
+                return false; 
+            }
+        }
     },
     {
         type: 'input',

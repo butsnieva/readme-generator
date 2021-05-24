@@ -1,5 +1,5 @@
-# dsgbdsg
-  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+# hr
+  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
   ## Table of Contents
   1. [Description](#description)
   2. [Installation](#installation)
@@ -7,12 +7,12 @@
   4. [Credits](#credits)
   5. [License](#license)
   ## Description
-  sdgbsd
+  gfb
   ## Installation
-  dsgbsdgbs
+  fg
   ## Usage
-  dbgsdb
+  dfgb
   ## Credits
-  sdbdsgb
+  dfgb
   ## License
-  This project is licensed under the Apache [license](https://opensource.org/licenses/Apache-2.0).
+  This project is licensed under the GPL [license](https://www.gnu.org/licenses/gpl-3.0).
