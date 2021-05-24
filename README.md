@@ -10,7 +10,7 @@ You can quickly and easily generate a README file by using a command-line applic
 ## Installation
 1. Clone this repository to your local mashine
 2. Run `npm install` to install dependencies
-3. Run `node index` to run the app
+3. To invoke an application run `node index`
 4. Answer all the question
 5. You can peview and copy your README from the newly created file named "MyREADME.md"
 
@@ -18,4 +18,4 @@ You can quickly and easily generate a README file by using a command-line applic
 
 ## Usage
 
-For a video example, please click this [link](https://drive.google.com/file/d/1pSyrqP7E0ksFYhcQpmMjDE-2HeN4QoCm/view?usp=sharing).
+For a video example, please click this [link](https://drive.google.com/file/d/1K76BkQuOX4gNX2bF2fPJ9JysX0uPo6Ip/view?usp=sharing).
